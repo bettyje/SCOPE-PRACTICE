@@ -44,7 +44,7 @@ Ensure the registration list is not directly accessible from outside createEvent
 The returned registerUser and checkRegistration functions should be able to access the list via closure, but it should not be modified directly from outside.
 ### Challenge:
 Enhance the system to support multiple events, each with its own private list of registered users, by invoking createEvent multiple times.
-# Test Case:
+### Test Case:
 Text
 
 1. const event = createEvent("JavaScript Conference");
