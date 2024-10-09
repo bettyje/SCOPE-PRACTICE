@@ -10,3 +10,8 @@ function getExpenseDetails(description, cost){
     console.log(`Expense: ${expenseDescription}, cost: ${expenseCost}`);
 
 }
+function resetBudget() {
+    totalBudget = 0;
+    console.log("Total budget reset to zero");
+    
+}
